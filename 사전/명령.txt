@@ -35,7 +35,7 @@ wc 세어봐
 cut 싹둑
 paste 풀칠
 join 합석
-split 쪼개
+split 나눠 쪼개
 fold 접어
 nl 줄번호
 tr 변신
@@ -70,7 +70,7 @@ gzip 쥐어짜
 gunzip 쥐어짠거풀어
 xz 더쥐어짜
 curl 말아
-wget 긁어와
+wget 가져와 긁어와
 http 주전자
 ssh 쉿
 scp 쉿베껴
@@ -170,6 +170,8 @@ dpkg 꾸러미
 snap 찰칵
 flatpak 납작꾸러미
 brew 양조장
+pacman 택배아저씨
+guix 괴짜
 
 # ── 네트워크 ──
 ping 계세요
@@ -256,7 +258,7 @@ cloc 줄세기
 
 # ── 계산/기타 ──
 bc 주판
-date 데이트 몇시야
+date 날짜 데이트 몇시야
 cal 달력
 seq 차례로
 shuf 섞어
@@ -271,6 +273,7 @@ xxd 십육진수
 # ── 필수 교양 ──
 neofetch 자랑
 fastfetch 빠른자랑
+screenfetch 병풍자랑
 cowsay 소가말해
 figlet 큰글씨
 lolcat 무지개고양이
