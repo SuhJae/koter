@@ -1,0 +1,110 @@
+# 단어 사전 — 인자 위치에서 번역되는 하위명령어/옵션
+# 형식: 영어 한국어1 [한국어2 ...]
+
+# ── 패키지 매니저 ──
+install 설치 깔아
+remove 삭제
+uninstall 지워
+purge 뿌리뽑아
+update 갱신
+upgrade 승급 업글
+search 검색
+audit 감사
+fund 돈줘
+
+# ── git ──
+push 밀어
+pull 당겨
+commit 저질러
+status 상태 별일없니
+blame 탓해 누구야
+rebase 역사왜곡
+merge 합쳐
+clone 복제
+checkout 갈아타
+switch 환승
+branch 가지
+log 일지
+stash 은닉 짱박아
+add 추가 담아
+fetch 가져와
+init 개업
+tag 꼬리표
+remote 먼곳
+reset 무효
+revert 무르기 물러
+cherry-pick 체리따기
+bisect 반갈죽
+diff 다른점
+show 보여줘
+config 설정
+clean 대청소
+restore 복원
+submodule 하청
+
+# ── 실행/서비스 ──
+run 실행 돌려
+build 조립 빚어
+test 시험
+start 시작
+stop 멈춰 그만
+restart 재시작
+reload 새로고침
+enable 활성화 켜둬
+disable 비활성화 꺼둬
+list 목록
+serve 대접
+deploy 출격
+publish 출판
+dev 개발
+lint 보풀제거
+format 각잡아
+version 몇판
+help 살려줘
+
+# ── docker/컨테이너 ──
+exec 침투
+logs 통나무
+images 초상화
+compose 작곡
+volume 창고
+network 인맥
+prune 가지치기
+
+# ── 짧은 옵션 ──
+-l --길게 -길게
+-a --전부 -전부
+-r --재귀 -재귀
+-f --강제 -강제 --닥치고
+-h --사람답게
+-v --수다
+-q --조용히
+-y --응 --넵
+-p --부모까지
+-m --메시지 -메시지 --한마디
+-o --출력
+-i --물어봐
+-g --전세계
+-b --새가지
+-d --몰래
+
+# ── 긴 옵션 ──
+--help --살려줘 --도움
+--version --몇판 --버전
+--all --전부다 --싹다
+--global --전지구
+--force --강제로
+--hard --빡세게
+--soft --살살
+--cached --찜한거
+--dry-run --시늉만
+--no-verify --양심없이
+--verbose --주저리주저리
+--recursive --재귀적으로
+--interactive --대화로
+--porcelain --도자기
+--amend --정정보도
+--squash --짜부
+--delete --폭파
+--detach --유체이탈
+--follow --졸졸

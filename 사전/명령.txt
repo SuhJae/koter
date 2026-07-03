@@ -1,0 +1,277 @@
+# 명령어 사전 — 형식: 영어명령 한국어1 [한국어2 ...]
+# 첫 번째 한국어가 대표어 (영어 치면 혼나는 메시지에 나옴)
+# 음역 금지. 진심의 번역만.
+
+# ── 파일/기본 ──
+ls 뭐 봐봐
+eza 신상뭐
+cd 이동 가즈아 가
+rm 제거 갖다버려
+rmdir 방빼
+cat 고양이
+tac 이양고
+bat 박쥐
+grep 뒤져 찾아내
+rg 번개뒤져
+find 수색
+fd 빨리찾아
+fzf 대충찾아
+mkdir 방만들어
+mv 옮겨 이사
+cp 베껴 복붙
+pwd 여기어디 내위치
+echo 메아리 따라해
+printf 서식메아리
+sed 성형
+awk 어이쿠
+head 머리 대가리
+tail 꼬리
+less 덜
+more 더
+man 아저씨 설명서
+sort 줄세워
+uniq 하나씩만
+wc 세어봐
+cut 싹둑
+paste 풀칠
+join 합석
+split 쪼개
+fold 접어
+nl 줄번호
+tr 변신
+rev 로꾸거
+xargs 줄줄이
+tee 분신술
+diff 틀린그림찾기
+patch 반창고
+file 넌뭐니
+stat 신상털기
+strings 글자만
+basename 이름만
+dirname 폴더만
+realpath 진짜경로
+readlink 어디보는거니
+mktemp 대충하나줘
+touch 쓰담 콕
+ln 노끈
+which 어디있니
+whereis 어디어디
+tree 나무
+column 줄맞춰
+cmp 비교
+comm 공통점
+shred 파쇄기
+
+# ── 압축/전송 ──
+tar 묶어
+zip 압축
+unzip 압축풀어
+gzip 쥐어짜
+gunzip 쥐어짠거풀어
+xz 더쥐어짜
+curl 말아
+wget 긁어와
+http 주전자
+ssh 쉿
+scp 쉿베껴
+sftp 쉿전송
+rsync 동기화
+ftp 옛날택배
+telnet 옛날전화
+
+# ── 권한/시스템 ──
+sudo 어명 제발
+pkexec 옥새
+chmod 허락
+chown 주인바꿔
+chgrp 무리바꿔
+su 빙의
+passwd 암구호변경
+useradd 식구추가
+userdel 호적파기
+whoami 나는누구 여긴어디
+who 누구세요
+id 주민등록증
+groups 소속
+last 방명록
+wall 전체방송
+history 흑역사
+clear 청소 싹
+exit 탈출
+logout 퇴근
+env 환경
+printenv 환경구경
+export 수출
+alias 별명
+locale 사투리설정
+iconv 번역기
+
+# ── 프로세스 ──
+kill 죽여
+pkill 다죽여
+killall 몰살
+ps 누구있니
+top 꼭대기
+htop 이쁜꼭대기
+btop 더이쁜꼭대기
+jobs 알바목록
+bg 뒤에서해
+fg 앞에서해
+nohup 끊지마
+disown 의절
+nice 착하게
+renice 다시착하게
+sleep 자 꿀잠
+timeout 시간제한
+watch 감시
+wait 기다려
+
+# ── 디스크/하드웨어 ──
+df 남은용량
+du 용량조사
+dd 절단기
+mount 올라타
+umount 내려와
+lsblk 블록들
+fdisk 칼질
+parted 정밀칼질
+mkfs 공장초기화
+fsck 디스크검진
+blkid 디스크주민번호
+free 공짜 남은기억
+uname 정체
+hostname 문패
+lscpu 머리스펙
+lsusb 꽂힌거뭐
+lspci 부품들
+lsmod 커널부품
+modprobe 부품장착
+dmesg 커널일기
+sensors 체온계
+uptime 얼마나버텼니
+sync 맞춰
+shutdown 꺼버려
+reboot 환생 다시태어나
+poweroff 영면
+halt 급정거
+ulimit 한도
+sysctl 커널조율
+nvidia-smi 황회장님
+
+# ── 서비스/패키지 ──
+systemctl 집사
+journalctl 일기장
+service 옛날집사
+crontab 시간표
+at 이따가
+apt 장터
+apt-get 재래시장
+dpkg 꾸러미
+snap 찰칵
+flatpak 납작꾸러미
+brew 양조장
+
+# ── 네트워크 ──
+ping 계세요
+traceroute 경로추적
+dig 파봐
+nslookup 호구조사
+host 주인장
+whois 누구냐넌
+arp 이웃들
+ip 주소
+ss 검문
+nc 만능칼
+tcpdump 도청
+iptables 철벽
+ufw 쉬운철벽
+openssl 자물쇠공장
+gpg 밀봉
+
+# ── 언어/런타임 ──
+python3 뱀 구렁이
+pip 뱀먹이
+pipx 뱀간식
+uv 자외선
+poetry 시인
+pytest 뱀시험
+jupyter 공책
+node 매듭
+npm 매듭가게
+npx 매듭실행
+pnpm 빠른매듭
+yarn 털실
+bun 빵
+deno 공룡
+go 가라
+gofmt 가라다듬어
+rustc 녹
+cargo 화물
+gcc 씨언어
+g++ 씨쁠쁠
+clang 쨍그랑
+make 만들어
+cmake 씨만들어
+ninja 자객
+java 커피
+javac 커피볶아
+ruby 홍옥
+gem 보석
+bundle 보따리
+perl 진주
+php 코끼리
+lua 달
+
+# ── 개발도구 ──
+git 멍청이
+gh 멍텅구리
+docker 부두꾼
+podman 꼬투리장수
+kubectl 조타수
+helm 방향타
+terraform 천지창조
+vagrant 방랑자
+vim 탈출게임
+nvim 신탈출게임
+nano 난쟁이
+ed 조상님
+emacs 운영체제
+code 부호
+tmux 칸막이
+screen 병풍
+ffmpeg 믹서기
+jq 젓가락
+yq 국자
+direnv 문지기
+mise 차림
+gdb 탐정
+strace 미행
+ltrace 사생팬
+objdump 해부
+nm 이름들
+readelf 요정해독
+valgrind 기억력검사
+adb 로봇다리
+cloc 줄세기
+
+# ── 계산/기타 ──
+bc 주판
+date 데이트 몇시야
+cal 달력
+seq 차례로
+shuf 섞어
+factor 소인수분해
+yes 응
+sha256sum 지문
+md5sum 옛날지문
+base64 육십사글자
+hexdump 뜯어봐
+xxd 십육진수
+
+# ── 필수 교양 ──
+neofetch 자랑
+fastfetch 빠른자랑
+cowsay 소가말해
+figlet 큰글씨
+lolcat 무지개고양이
+sl 기차
